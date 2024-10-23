@@ -75,7 +75,13 @@ body {
   font-family: var(--font-family);
   font-size: var(--fs-base);
   font-weight: var(--fw-md);
-  padding: var(--spacing-300);
+}
+
+main {
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding-inline: var(--spacing-300);
 }
 
 h1 {
